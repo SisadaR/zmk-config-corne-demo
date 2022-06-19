@@ -64,7 +64,7 @@
     };
 
     macros {
-        zed_em_kay: zed_em_kay {
+        switch_language: switch_language {
             compatible = "zmk,behavior-macro";
             label = "switch_language";
             #binding-cells = <0>;
