@@ -21,7 +21,7 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <17 18>;
-        }
+        };
         
         ctrl {
             bindings = <&kp LCTRL>;
