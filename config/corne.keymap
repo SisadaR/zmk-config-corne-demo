@@ -98,8 +98,8 @@
             bindings = <
   &mt LCTRL ESC        &kp Q       &kp W       &kp E         &kp R      &kp T              &kp Y         &kp U         &kp I        &kp O          &kp P          &mt RCTRL BACKSPACE
       &lt 3 TAB  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F      &lt 3 G            &kp H  &hm RSHIFT J    &hm RGUI K      &hm RALT L     &hm RCTRL SEMICOLON  &lt 6 APOSTROPHE
- &kp LSHIFT      &hm LCTRL Z  &hm LALT X  &hm LGUI C  &hm LSHIFT V      &kp B              &kp N  &hm RSHIFT M    &hm RGUI COMMA  &hm RALT DOT   &hm RCTRL FSLH     &kp RALT
-                                          &kp LGUI  &mo 1    &lt 4 SPACE          &lt 4  SPACE    &lt 2 RET     &switch_language
+ &kp LSHIFT            &kp Z       &kp X       &kp C        &kp V       &kp B              &kp N        &kp M       &kp COMMA      &kp DOT      &kp FSLH     &switch_language
+                                          &kp LGUI  &mo 1    &lt 4 SPACE          &lt 4  RET    &mo 2    &kp RALT 
             >;
         };
 
