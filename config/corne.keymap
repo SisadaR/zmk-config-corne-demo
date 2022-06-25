@@ -21,8 +21,8 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <17 18>;
-        };
-
+        }
+        
         ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <36 41>;
@@ -96,10 +96,10 @@
 
         base {
             bindings = <
-        &kp ESC        &kp Q       &kp W       &kp E         &kp R      &kp T            &kp Y         &kp U         &kp I       &kp O                &kp P     &kp BACKSPACE
-      &lt 3 TAB  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F      &lt 3 G            &kp H  &hm RSHIFT J    &hm RGUI K  &hm RALT L  &hm RCTRL SEMICOLON  &lt 6 APOSTROPHE
- &kp LSHIFT            &kp Z       &kp X       &kp C       &lt 4 V      &kp B              &kp N       &lt 4 M     &kp COMMA     &kp DOT             &kp FSLH     &kp RALT
-                                            &kp LGUI         &mo 1  &lt 4 SPACE          &lt 4  RET    &mo 2     &kp LCTRL
+  &mt LCTRL ESC        &kp Q       &kp W       &kp E         &kp R      &kp T              &kp Y         &kp U         &kp I        &kp O          &kp P          &mt RCTRL BACKSPACE
+      &lt 3 TAB  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F      &lt 3 G            &kp H  &hm RSHIFT J    &hm RGUI K      &hm RALT L     &hm RCTRL SEMICOLON  &lt 6 APOSTROPHE
+ &kp LSHIFT      &hm LCTRL Z  &hm LALT X  &hm LGUI C  &hm LSHIFT V      &kp B              &kp N  &hm RSHIFT M    &hm RGUI COMMA  &hm RALT DOT   &hm RCTRL FSLH     &kp RALT
+                                          &kp LGUI  &lt 1 &switch_language   &lt 4 SPACE          &lt 4  SPACE    &lt 2 RET     &kp LCTRL
             >;
         };
 
@@ -134,7 +134,7 @@
             bindings = <
  &trans  &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PG_UP         &kp END                &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &kp INSERT  &kp DELETE
  &trans      &trans  &kp LEFT       &kp DOWN     &kp UP       &kp RIGHT          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans      &trans
- &trans      &trans    &trans         &trans     &trans          &trans                  &trans          &trans        &trans           &trans      &trans      &trans
+ &trans      &trans    &trans         &trans     &trans       &kp DEL                  &kp BACKSPACE          &trans        &trans           &trans      &trans      &trans
                                       &trans     &trans  &kp LEFT_SHIFT              &kp RSHIFT          &trans        &trans
             >;
         };
